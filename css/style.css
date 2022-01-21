@@ -1,0 +1,16 @@
+.search-btn {
+  background: url(./search.png);
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 440px;
+  width: 480px;
+  height: 42px;
+}
+@media screen and (max-width: 576px) {
+  .search-btn {
+    width: 285px;
+    background-position-x: 250px;
+    margin-top: 10px;
+  }
+}
